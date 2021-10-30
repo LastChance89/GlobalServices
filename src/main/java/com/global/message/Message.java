@@ -17,14 +17,14 @@ public enum Message {
 	SET_CONTEXT("Setting context");
 	
 	
-	private String message; 
+	private String messageText; 
 	
-	private Message(String message) {
-		this.message = message;
+	private Message(String messageText) {
+		this.messageText = messageText;
 	}
 	
 	public String getMessage() {
-		return message;
+		return messageText;
 	}
 	
 }
